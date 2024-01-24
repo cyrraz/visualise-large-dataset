@@ -3,7 +3,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 from pathlib import Path
 
-filename = "data2.pq"
+filename = "data.pq"
 total_size = int(2e10)
 batch_size = int(1e7)
 
