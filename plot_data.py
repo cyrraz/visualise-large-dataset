@@ -34,6 +34,6 @@ ax.set_xlabel("Variable")
 ax.set_ylabel("Entries")
 ax.set_xlim(range_)
 
-ax.legend()
+ax.legend(reverse=True)
 
 fig.savefig("variable.svg", bbox_inches="tight")
