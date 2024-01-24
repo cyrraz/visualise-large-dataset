@@ -7,4 +7,4 @@ The data are generated/loaded in batches so that the required memory is only ~2G
 
 This is the resulting plot:
 
-![variable.svg](https://raw.githubusercontent.com/cyrraz/visualise-large-dataset/077a162645e40d709b0393e25efeafa5a8c9ca6d/variable.svg)
+![variable.svg](https://raw.githubusercontent.com/cyrraz/visualise-large-dataset/main/variable.svg)
