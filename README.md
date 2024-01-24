@@ -6,4 +6,4 @@ Example showing how to visualise ~20GB of data using [plothist](https://plothist
 * `plot_data.py` plots the generated data using `pyarrow` and `plothist` (takes ~1min).
 
 This is the resulting plot:
-![variable.svg]()
+![variable.svg](https://raw.githubusercontent.com/cyrraz/visualise-large-dataset/077a162645e40d709b0393e25efeafa5a8c9ca6d/variable.svg)
