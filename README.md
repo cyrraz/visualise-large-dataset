@@ -3,7 +3,7 @@ Example showing how to visualise ~20GB of data using [plothist](https://plothist
 The data are generated/loaded in batches so that the required memory is only ~2GB.
 
 * `generate_data.py` generates a data file `data.pq` of ~20GB using `pyarrow` (takes ~3min).
-* `plot_data.py` plots the generated data using `pyarrow` and `plothist` (takes ~30s).
+* `plot_data.py` plots the generated data using `plothist` and `pyarrow` (takes ~30s).
 * `plot_categorised_weighted_data.py` plots the generated data using `pyarrow` and `plothist`, taking into account different data categories and a specific weight for each entry (takes ~1min).
 
 This is the resulting plot of `plot_data.py`:
