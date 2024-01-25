@@ -8,9 +8,9 @@ batch_size = int(1e7)
 range_ = (0, 6)
 bins = 50
 
-hist_normal = make_hist(data=[], range=range_, bins=bins)
-hist_exponential = make_hist(data=[], range=range_, bins=bins)
-hist_log_normal = make_hist(data=[], range=range_, bins=bins)
+hist_normal = make_hist(range=range_, bins=bins)
+hist_exponential = make_hist(range=range_, bins=bins)
+hist_log_normal = make_hist(range=range_, bins=bins)
 
 for batch in parquet_file.iter_batches(batch_size=batch_size):
     variable = batch.column("variable").to_pandas(zero_copy_only=True).values

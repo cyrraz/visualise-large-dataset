@@ -8,7 +8,7 @@ batch_size = int(1e7)
 range_ = (0, 6)
 bins = 50
 
-hist = make_hist(data=[], range=range_, bins=bins)
+hist = make_hist(range=range_, bins=bins)
 
 for batch in parquet_file.iter_batches(batch_size=batch_size, columns=["variable"]):
     hist.fill(batch.column("variable"), threads=0)
