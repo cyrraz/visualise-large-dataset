@@ -16,8 +16,8 @@ And the result of `plot_categorised_weighted_data.py`:
 ![variable_categorised_weighted.svg](https://raw.githubusercontent.com/cyrraz/visualise-large-dataset/main/variable_categorised_weighted.svg)
 
 ## Hardware used
-CPU: Intel Core i5-1235U
-RAM: 16GB DDR4, 3200 MT/s
-Disk: 500GB SSD, Read/Write Speed: 2.1/1.1 GB/s
+* CPU: Intel Core i5-1235U
+* RAM: 16GB DDR4, 3200 MT/s
+* Disk: 500GB SSD, Read/Write Speed: 2.1/1.1 GB/s
 
 *This repository is dedicated to N.K.R.*
